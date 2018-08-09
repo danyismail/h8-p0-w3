@@ -9,9 +9,9 @@
 function perkalianUnik(arr) {
     var grab = []
     
-    for(i=0; i<arr.length; i++){
+    for(var i=0; i<arr.length; i++){
         var tmp = 1
-        for(j=0; j<arr.length; j++){
+        for(var j=0; j<arr.length; j++){
             if(i !== j)
             tmp *= arr[j]
             
